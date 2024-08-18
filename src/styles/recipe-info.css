@@ -1,0 +1,95 @@
+.recipe-info {
+  background-color: rgba(255, 0, 0, 0);
+  margin-top: 5vw;
+}
+
+.recipe-info-header {
+  margin-bottom: 4vw;
+  font-size: 2vw;
+  font-family: Helvetica;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.recipe-info-header h3 {
+  margin-bottom: 1%;
+}
+.recipe-info-header p {
+  font-size: 0.7vw;
+  letter-spacing: 0;
+  font-family: sans-serif;
+  text-transform: none;
+  margin-top: 5%;
+  color: rgb(46, 22, 0);
+  font-weight: 800;
+  font-style: italic;
+}
+.recipe-info-container {
+  background-color: rgb(221, 230, 183);
+  padding: 5vw;
+  width: 30vw;
+  margin-left: 15vw;
+  max-height: 45vw;
+  overflow: scroll;
+}
+
+.recipe-info-content-container {
+  background-color: rgba(235, 185, 21, 0);
+}
+
+.recipe-step {
+  background-color: rgba(87, 87, 182, 0);
+  float: left;
+  font-size: 1.2vw;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: -0.5vw;
+}
+
+.display-text {
+  background-color: rgba(144, 238, 144, 0);
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+  font-size: 1vw;
+  font-family: sans-serif;
+  line-height: 1.2;
+  padding: 0.5vw;
+  padding-bottom: 3vw;
+  border-bottom: 2px dashed rgb(255, 255, 255);
+}
+
+.recipe-image {
+  position: absolute;
+  z-index: 7;
+  margin-left: 51vw;
+  top: 35vw;
+  object-fit: cover;
+  width: 30vw;
+  max-height: 30vw;
+  border: 1vw solid orangered;
+}
+
+/* .description-container {
+  max-width: 20vw;
+  text-align: center;
+  text-wrap: pretty-wrap;
+  font-size: 0.6vw;
+  background-color: rgb(201, 192, 174);
+  border-radius: 50px;
+  padding: 20px;
+  margin-left: 50vw;
+} */
+
+.recipe-info-link {
+  font-size: 1vw;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(255, 136, 0);
+  font-family: sans-serif;
+  font-weight: 900;
+  padding: 0.5vw;
+  border-radius: 15px;
+  letter-spacing: normal;
+  text-transform: none;
+}

@@ -1,0 +1,97 @@
+.cards {
+  width: 100vw;
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  transition: 0.5s ease;
+}
+
+.individual-card {
+  margin: 30px 30px;
+  border-radius: 20px;
+  border-bottom: 2px solid black;
+  border: 1px solid rgb(192, 192, 192);
+  overflow: clip;
+  transition: 1s ease;
+  box-shadow: 1px 2px 5px 1px hsla(0, 0%, 0%, 0.534);
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  margin-left: 50px;
+}
+
+.card-image {
+  height: 300px;
+  width: 300px;
+  transform: scale(1.5);
+  object-fit: cover;
+  overflow: clip;
+}
+
+.individual-card:hover {
+  cursor: pointer;
+  box-shadow: 1px 7px 5px 2px hsla(0, 0%, 0%, 0.452);
+  height: 450px;
+}
+
+.noInfo {
+  cursor: pointer;
+  box-shadow: 1px 7px 5px 2px hsla(0, 0%, 0%, 0.452);
+  height: 300px;
+}
+
+.noInfo:hover {
+  cursor: pointer;
+  box-shadow: 1px 7px 5px 2px hsla(0, 0%, 0%, 0.452);
+  height: 420px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  position: relative;
+  z-index: 7;
+  text-overflow: ellipsis;
+}
+
+.card-info {
+  padding: 20px;
+  background-color: white;
+}
+
+.card-title {
+  margin-top: 18px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-wrap: balance;
+  margin-left: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.tag {
+  background-color: hsl(188, 26%, 29%);
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+.tag:hover {
+  background-color: hsl(188, 28%, 16%);
+}
+
+.time-text {
+  margin: 20px 0px 2px 0px;
+  color: rgb(255, 102, 0);
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}

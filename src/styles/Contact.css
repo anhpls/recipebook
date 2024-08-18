@@ -1,0 +1,84 @@
+.body-container {
+  width: 100vw;
+  background-color: rgb(235, 232, 213);
+  margin-top: 15vw;
+  margin-bottom: 15vw;
+  padding: 2vw 0vw;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  height: 45vw;
+  margin-top: 5vw;
+  margin-left: 10vw;
+  overflow: hidden;
+}
+
+.heading-container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-wrap: pretty;
+  background-color: rgb(67, 77, 65);
+  line-height: 1.8vw;
+  padding: 2vw;
+}
+
+.heading-container p {
+  font-size: 0.9vw;
+  font-weight: normal;
+  width: inherit;
+  color: white;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.heading-container h5 {
+  font-size: 0.9vw;
+  width: inherit;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.title {
+  color: rgb(245, 205, 167);
+  font-size: 4vw;
+  margin-bottom: 1vw;
+}
+
+.contact-title-logo {
+  position: absolute;
+  width: 100vw;
+  top: -9vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  .contact-title-logo {
+    transform: scale(2) translateY(15vw) translateX(25vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .body-container {
+    height: 200vw;
+    width: 200vw;
+  }
+  .card-container {
+    transform: scale(3) translateY(30vw) translateX(10vw);
+  }
+  .contact-form {
+    transform: scale(2.4) translateY(35vw) translateX(40vw);
+    padding: 0;
+    margin: 0;
+  }
+}

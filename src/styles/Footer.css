@@ -1,0 +1,90 @@
+.footer-container {
+  background-color: hsla(113, 11%, 15%, 0.863);
+  color: white;
+  height: 10vw;
+  margin-top: 5vw;
+  padding: 5vw;
+  overflow: hidden;
+}
+
+.biggest-container h4 {
+  font-size: 1.2vw;
+  margin-bottom: 0.3vw;
+  color: rgb(237, 247, 226);
+}
+
+.footerspans {
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: bold;
+  color: rgb(211, 120, 46);
+}
+
+.biggest-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  line-height: 1.5vw;
+  font-family: sans-serif;
+}
+
+.social-media-container {
+  max-width: 30vw;
+}
+
+.social-media {
+  font-size: 0.8vw;
+}
+
+.biggest-container p {
+  font-size: 0.8vw;
+  color: rgb(183, 190, 181);
+}
+
+.footer-icons {
+  font-size: 2.5vw;
+  margin: 0.5vw;
+}
+
+.footer-links {
+  color: rgb(219, 221, 217);
+}
+
+.copyright-text {
+  display: block;
+  text-align: center;
+  justify-self: center;
+  margin-top: 1.5vw;
+  font-weight: 100;
+  color: rgb(135, 141, 133);
+  font-size: 0.7vw;
+}
+
+@media screen and (max-width: 430px) {
+  .footer-container {
+    width: 190vw;
+    height: 50vw;
+    position: relative;
+    bottom: 0;
+  }
+
+  .biggest-container {
+    padding: 4vw;
+  }
+  .biggest-container h4 {
+    font-size: 4vw;
+  }
+  .biggest-container p {
+    padding-top: 2vw;
+    font-size: 2vw;
+    line-height: 5vw;
+  }
+  .footerspans {
+    font-size: 3vw;
+  }
+  .footer-icons {
+    font-size: 6vw;
+    margin: 1vw;
+  }
+}

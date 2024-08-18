@@ -1,0 +1,131 @@
+@import url("./Cards.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  .header-title {
+    font-size: 2em;
+    margin-top: 2.2em;
+    margin-left: 2em;
+  }
+
+  .header-description {
+    width: 30em;
+    font-size: 0.5em;
+  }
+
+  span {
+    font-size: 0.9em;
+  }
+
+  .header-hr {
+    margin-top: 7em;
+    width: 10em;
+  }
+
+  .search-button {
+    width: 15em;
+    font-size: 0.5em;
+    margin-top: 1.5em;
+  }
+
+  .header-input {
+    width: 20em;
+    margin-top: 15px;
+  }
+
+  .main-image {
+    width: 200vw;
+  }
+
+  .cards {
+    min-width: 200vw;
+    max-height: fit-content;
+    margin-top: 50px !important;
+  }
+
+  .individual-card {
+    max-width: 10em;
+    max-height: 10em;
+    margin: 1em !important;
+  }
+
+  .card-image {
+    max-height: 10em;
+    max-width: 10em;
+    transform: scale(1.5);
+    object-fit: cover;
+    overflow: clip;
+  }
+
+  .individual-card:hover {
+    max-height: 18em;
+  }
+
+  .noInfo {
+    max-height: 10em;
+  }
+
+  .noInfo:hover {
+    max-height: 17em;
+  }
+
+  .card-content {
+    font-size: 3px;
+  }
+
+  .card-title {
+    font-size: 3.5em !important;
+    padding-left: 1.5em;
+    width: 20em;
+  }
+
+  .tag {
+    font-size: 3em !important;
+    margin-right: 1.5em;
+  }
+
+  .time-text {
+    font-size: 10px !important;
+  }
+
+  .logo-container {
+    transform: translateX(90vw);
+  }
+
+  .logo-nav {
+    width: 2em;
+    height: 2em;
+  }
+
+  .loading-gif {
+    right: 12px;
+    top: 30vh;
+    height: 20em;
+    width: 20em;
+  }
+
+  .nav-link {
+    font-size: 3vw;
+  }
+}
+
+/* Make for tablet sizes */
+/* @media screen and (min-width: 600px) and (max-width: 1024px) {
+  .nav-link {
+    font-size: 1.5vw;
+  }
+  .footer-container {
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+    bottom: 0;
+  }
+} */

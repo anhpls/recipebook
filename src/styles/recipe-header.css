@@ -1,0 +1,50 @@
+/* recipe header title */
+
+.recipe-header {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-header h1 {
+  font-size: 2.5vw;
+  text-wrap: pretty;
+  width: 30vw;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(26, 31, 24);
+  margin-bottom: 2vw;
+  transition: color 0.8s ease;
+}
+
+.recipe-header h1:hover {
+  color: rgb(255, 102, 0);
+}
+
+.recipe-fact-container p {
+  color: rgb(48, 48, 48);
+}
+
+.recipe-fact-container h3 {
+  color: hsl(89, 23%, 40%);
+  padding-left: 7px;
+}
+
+.nutritional-facts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 26vw;
+  width: 50vw;
+  font-size: 0.8vw;
+}
+
+.icons {
+  font-size: 2vw;
+  color: hsl(17, 12%, 11%);
+}
