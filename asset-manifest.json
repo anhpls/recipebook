@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/recipebook/static/css/main.5304ac89.css",
+    "main.js": "/recipebook/static/js/main.7e0acab4.js",
+    "static/js/453.fafed91a.chunk.js": "/recipebook/static/js/453.fafed91a.chunk.js",
+    "static/media/ingredients.png": "/recipebook/static/media/ingredients.37a3c4d8721af6104168.png",
+    "static/media/book.png": "/recipebook/static/media/book.f97b9b8772f81b9284a1.png",
+    "static/media/lineart.png": "/recipebook/static/media/lineart.2d261ea5b657c7b0f3f2.png",
+    "static/media/logo-image.png": "/recipebook/static/media/logo-image.cae5b43adc76d2e243db.png",
+    "static/media/about1.jpg": "/recipebook/static/media/about1.e0dd6060b464e06a4ad3.jpg",
+    "static/media/about2.jpg": "/recipebook/static/media/about2.ae6fe07f25b251b6b1f8.jpg",
+    "static/media/fire-top2.png": "/recipebook/static/media/fire-top2.1e4c0ec93c6726b5a592.png",
+    "static/media/loading.gif": "/recipebook/static/media/loading.0a6a21f953a81a2d45cc.gif",
+    "static/media/firebg.png": "/recipebook/static/media/firebg.b500a01240432f848a60.png",
+    "static/media/logo.png": "/recipebook/static/media/logo.493d5e9eb065a83660b9.png",
+    "static/media/title.png": "/recipebook/static/media/title.d654fdf43276e17cbc56.png",
+    "static/media/api.png": "/recipebook/static/media/api.c3644d1db111b8930f1d.png",
+    "static/media/bg.png": "/recipebook/static/media/bg.23759d8fdde48ab112e6.png",
+    "index.html": "/recipebook/index.html",
+    "main.5304ac89.css.map": "/recipebook/static/css/main.5304ac89.css.map",
+    "main.7e0acab4.js.map": "/recipebook/static/js/main.7e0acab4.js.map",
+    "453.fafed91a.chunk.js.map": "/recipebook/static/js/453.fafed91a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5304ac89.css",
+    "static/js/main.7e0acab4.js"
+  ]
+}
