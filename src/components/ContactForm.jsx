@@ -15,6 +15,7 @@ export default function ContactForm() {
     e.preventDefault();
     console.log(inputs);
     inputs.textarea.replace(/\n/g, "");
+    alert("Thank you for sending us a message!");
     setInputs({
       firstName: "",
       lastName: "",
