@@ -21,6 +21,14 @@ RecipeBook is a responsive, web-based platform that simplifies recipe management
 
 ---
 
+## Future Enhancements
+
+- User accounts for saving and managing recipes
+- Community-driven recipe submissions
+- Enhanced search with filters and tags
+
+---
+
 ## Developer Notes
 
 **Current Version**: 1.0.0  
